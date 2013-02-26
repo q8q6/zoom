@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+ {
+    UIImage *image;
+    UIImageView *img;
+    UIPinchGestureRecognizer *twoFingerPinch;
+}
 
 @end
+ 
